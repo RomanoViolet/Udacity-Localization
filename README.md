@@ -1,7 +1,7 @@
 # (Markov) Localization
 
 ## About
-This project implements Markov Localization algorithm (EKF) as required by the Udacity's [Self Driving Car Nano-Degree program.](https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013)
+This project implements Markov Localization algorithm as required by the Udacity's [Self Driving Car Nano-Degree program.](https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013)
 
 The input to the algorithm are the position of a set of landmarks observed by the radar (or the lidar) mounted on the vehicle as it moves along a path. In addition, the vehicle is provided with a sparse map containing the position of a set of features. 
 As the vehicle moves, the (noisy) sensors sense the location of objects in the vicinity, and the localization algorithm uses the data provided by the sensors, along with the map in order to precisely localize the vehicle.
