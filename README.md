@@ -12,7 +12,8 @@ A rough estimate of the initial position of the vehicle is provided by a sensor 
 This project involves the Term 2 Simulator which can be downloaded [here](https://github.com/udacity/self-driving-car-sim/releases). Select "Kidnapped Vehicle" option.
 
 A sample frame from grabbed as the vehicle localizes itself inside a simulator is shown ![below](https://github.com/RomanoViolet/Udacity-Localization/blob/master/Results/screenshot.png)
-The green trace is the path estimated by the Unscented Kalman Filter.
+The accuracy of the localizer is indicated by the blue circle, (almost) overlaid over the simulated car.
+Udacity also imposed requirements on the performance (i.e., speed) of the implementation, which is enforced by the simulator. The simulator expects that one complete simulation required less than 100 seconds.
 
 ### Prerequisites
 _Ad-verbatim from Udacity's Instructions:_
